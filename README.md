@@ -23,16 +23,15 @@ Easily extendable to add more databases or business logic.
 + **Maven/Gradle**
 
 ## API Endpoints
-+ **Primary Database**
-GET /primary
-Description: Retrieves all records from the primary database.
-POST /primary
-Description: Saves a new record to the primary database.
+### Primary Database
++ **GET /primary** <br> Description: Retrieves all records from the primary database.
++ **POST /primary** <br>
+  Description: Saves a new record to the primary database.
 
-+ **Secondary Database**
-GET /secondary
+### Secondary Database
++ **GET /secondary** <br>
 Description: Retrieves all records from the secondary database.
-POST /secondary
++ **POST /secondary** <br>
 Description: Saves a new record to the secondary database.
 
 ## Technologies Used
