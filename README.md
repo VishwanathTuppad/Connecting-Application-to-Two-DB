@@ -4,16 +4,16 @@ This project demonstrates a multi-database connection setup in a Spring Boot app
 
 ## Features
 
-+ **Multi-Database Configuration:**
++ **Multi-Database Configuration:** <br>
 Separate configurations for the Primary and Secondary databases using Spring's @Configuration annotation.
 DataSource, EntityManagerFactory, and TransactionManager for each database.
-+ **Modular Structure:**
++ **Modular Structure:** <br>
 Clear separation of concerns with distinct packages for controllers, services, repositories, and entities.
-+ **Database Properties:**
++ **Database Properties:** <br>
 Configured via application.properties (or application.yml) file for both primary and secondary databases.
-+ **Spring Data JPA:**
++ **Spring Data JPA:** <br>
 Simplifies database operations with repositories for each database.
-+ **Scalable:**
++ **Scalable:** <br>
 Easily extendable to add more databases or business logic.
 
 ## Prerequisites
